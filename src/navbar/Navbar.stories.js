@@ -6,4 +6,6 @@ export default {
   component: Navbar
 };
 
-export const Login = () => <Navbar />;
+export const Login = () => <Navbar isLoggedIn={true} />;
+
+export const Logout = () => <Navbar isLoggedIn={false} />;

@@ -16,4 +16,8 @@ export const ListItem = styles.li`
 export const StyledLink = styles.a`
     text-decoration: none;
     color: white;
+
+    &:hover {
+        color: #ddd;
+    }
 `;
